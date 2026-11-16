@@ -1,0 +1,9 @@
+.git
+.cache
+.env*
+spikes
+output
+tmp
+*.md
+node_modules
+
