@@ -4,6 +4,7 @@
 spikes
 output
 tmp
+design
 *.md
 node_modules
 
