@@ -1,0 +1,37 @@
+# Private source context and detailed planning stay local.
+/docs/planning/
+/docs/private/
+/private/
+/research/
+/local-data/
+/exports/
+
+# Secrets and local settings. Examples must contain placeholders only.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Personal/exported documents; exceptions require content review.
+*.docx
+*.pdf
+pondroot-draft*.json
+
+# Dependencies, generated application/test output and local hosting settings.
+node_modules/
+.next/
+out/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+.vercel/
+
+# Operating system files.
+.DS_Store
+Thumbs.db
+Desktop.ini
