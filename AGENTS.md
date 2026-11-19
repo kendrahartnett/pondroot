@@ -40,3 +40,13 @@ Phase 0 has no app tests yet. Review its documentation/ignore/staging choices ra
 Keep sanitized public phase status in docs/PHASES.md. When private local planning exists, use docs/planning/Phase_Progress.md for detailed evidence. Never publish personal source observations or invent missing private records. Track task/story/test IDs, relevant versions, actual checks, owner feedback, fixes and actual commit/push results. Do not claim independent review unless it occurred. No agents/delegation unless the user or other applicable instructions explicitly request it.
 
 The .gitignore exclusions are deliberate guards, not a security boundary. Never force-add private planning/source documents, personal exports, credentials or research data. Inspect the concrete proposed/staged diff, including binaries. New ignore rules do not protect files already tracked in history. Missing required brand assets must be identified for intentional review, not approximated or copied from unrelated folders. Record real install/dev/build/typecheck/lint/test commands in Phase 1 based on the installed toolchain; Phase 0 has no app checks.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

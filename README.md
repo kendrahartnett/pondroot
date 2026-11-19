@@ -4,7 +4,7 @@ Pondroot is a planned employment-preparation application for people returning ho
 
 ## Current state
 
-Phase 0 is ready for owner review. This baseline contains sanitized product guidance and the phase delivery process. No application has been scaffolded, no service has been provisioned and no application tests have run. No phase commit or push has occurred.
+Phase 0 was merged into main. Phase 1 is in local review preparation on `codex/phase-1-foundation`: a Stillwater guest home and navigation previews. Later tools are not implemented. See [development commands](docs/DEVELOPMENT.md). Phase 1 has not been committed or pushed.
 
 The approved first release includes guest access, a session home, PowerSkills and complete resume editing, optional Claude Sonnet wording assistance with explicit review, editable local drafts, PDF/printing, reviewed document guidance and Transparent Hiring Information with written interview practice. AI interview simulation and cloud resume accounts are deferred.
 

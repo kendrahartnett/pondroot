@@ -2,9 +2,9 @@
 
 ## Current state
 
-Phase 0 is **ready for owner review**. Proposed baseline: .gitignore, .gitattributes, AGENTS.md, README.md and these three docs files. No app was scaffolded, files staged, phase commit made or push attempted. Detailed local review records stay excluded.
+Phase 0 was merged into main at `7ec09fd`; its baseline commit is `a7c63ad`. Phase 1 is building on `codex/phase-1-foundation`. The owner requested this new branch after deleting the merged remote branch. Detailed local review records stay excluded. Phase 1 has no commit, push or deployment.
 
-Work branch: codex/pondroot-build, created from inspected main. The repository is public. GitHub metadata reports no Actions workflows; external deployment/webhook settings remain unverified. Recheck actual state/diff and unresolved triggers before a later first push. This status is not publication authorization.
+Work branch: codex/phase-1-foundation, created from fetched origin/main at 7ec09fd. The repository is public. Prior GitHub metadata reported no Actions workflows; current external deployment/webhook settings remain unverified. Recheck before a push. This status is not publication authorization.
 
 ## One-phase cycle
 
@@ -38,8 +38,9 @@ Agree bounded subphases if needed; don't call a parent complete from a partial s
 
 | Phase | State | Commit | Push |
 | --- | --- | --- | --- |
-| 0 | Ready for owner review | None | Not attempted |
-| 1-10 | Not started | None | Not attempted |
+| 0 | Merged into main | a7c63ad (merge 7ec09fd) | Previously verified |
+| 1 | Implemented locally; visual/access review incomplete | None | Not attempted |
+| 2-10 | Not started | None | Not attempted |
 
 Future closure records sanitized scope, actual checks, owner review and Git evidence. Do not invent the hash of a commit containing this status; report the actual hash in the handoff/local ledger after commit/push, and include it in a later reviewed update if useful. Keep private observations and files local.
 
